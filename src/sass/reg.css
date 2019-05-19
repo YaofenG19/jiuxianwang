@@ -1,0 +1,498 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  height: 88px;
+  background: #fff;
+  box-shadow: 1px 2px 6px #e1e1e1;
+}
+
+.header .conhead {
+  width: 1000px;
+  height: 88px;
+  margin: 0 auto;
+}
+
+.header .conhead .jx_logo {
+  width: 257px;
+  height: 63px;
+  margin-top: 15px;
+  float: left;
+}
+
+.header .conhead .jx_logo p {
+  width: 140px;
+  background: url(../img/jx_logo.jpg) no-repeat;
+  float: left;
+  height: 63px;
+}
+
+.header .conhead .jx_logo p a {
+  width: 140px;
+  height: 63px;
+  display: inline-block;
+}
+
+.header .conhead .headNav {
+  width: 77px;
+  height: 14px;
+  line-height: 14px;
+  float: right;
+  margin: 48px 0 0 20px;
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.header .conhead .headNav span {
+  float: left;
+  color: #666;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+.header .conhead .headNav .jx_jt {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  display: inline-block;
+  background-position: -23px 0;
+  width: 15px;
+  height: 14px;
+}
+
+.header .conhead .headNav .jx_pop {
+  position: absolute;
+  border: 1px solid #ccc;
+  top: -6px;
+  left: -10px;
+  width: 85px;
+  z-index: 1;
+  padding-top: 26px;
+  height: 100px;
+  display: none;
+}
+
+.header .conhead .headNav .jx_pop li {
+  border-top: 1px dotted #ccc;
+  padding-left: 10px;
+  height: 24px;
+  line-height: 24px;
+  background: #fff;
+  font-size: 12px;
+  color: #666;
+}
+
+.header .conhead .jx_reg {
+  float: right;
+  color: #999;
+  margin-top: 48px;
+  height: 14px;
+  line-height: 12px;
+  width: 152px;
+  font-size: 12px;
+}
+
+.header .conhead .jx_reg a {
+  color: #0066cc;
+  margin-left: 10px;
+}
+
+.header .conhead .jx_reg a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  width: 100%;
+  padding: 0 0 50px;
+  height: 600px;
+  padding-top: 70px;
+  background: url(../img/reg_bg.jpg) repeat-x scroll left top;
+}
+
+.main .jx_main {
+  width: 1000px;
+  margin: 0 auto;
+  height: 506px;
+}
+
+.main .jx_main .jx_content {
+  background: #fff;
+  border: 3px solid #eaeaea;
+  border-radius: 5px;
+  box-shadow: 1px 6px 11px #e4e4e4;
+  height: 500px;
+  position: relative;
+}
+
+.main .jx_main .jx_content .jx_regBox {
+  height: 450px;
+  width: 994px;
+  position: relative;
+}
+
+.main .jx_main .jx_content .jx_regBox .jx_regTitBox {
+  height: 34px;
+  position: absolute;
+  right: 15px;
+  top: -37px;
+}
+
+.main .jx_main .jx_content .jx_regBox .jx_regTitBox .jx_regTit1 {
+  float: right;
+  cursor: pointer;
+  padding: 0 15px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  /* border: 2px solid #ff9900; */
+  border-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #ff9900;
+  margin-left: 6px;
+  vertical-align: top;
+  border-bottom: none;
+}
+
+.main .jx_main .jx_content .jx_regBox .jx_regTitBox .jx_regTit2 {
+  margin-bottom: -3px;
+  position: relative;
+  border-bottom: none;
+  height: 35px;
+  border: 2px solid #eaeaea;
+  background: #fff;
+  color: #ff9900;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 34px;
+  font-size: 14px;
+  margin-left: 6px;
+  vertical-align: top;
+  border-bottom: 0px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap {
+  height: 500px;
+  width: 994px;
+  overflow: hidden;
+  position: relative;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon {
+  width: 784px;
+  padding: 55px 0 0 125px;
+  float: left;
+  height: 386px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor {
+  margin-top: 15px;
+  width: 784px;
+  height: 42px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .reglabel {
+  width: 230px;
+  height: 42px;
+  line-height: 42px;
+  text-align: right;
+  font-size: 16px;
+  padding-right: 30px;
+  float: left;
+  color: #666;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox {
+  height: 42px;
+  width: 302px;
+  float: left;
+  position: relative;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regInput {
+  width: 255px;
+  padding-left: 45px;
+  background: none;
+  position: relative;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  color: #999;
+  border: 1px solid #dcdcdc;
+  font-size: 16px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regCon1 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+  background-position: -48px 2px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regCon2 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+  background-position: -422px 2px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regCon3 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+  background-position: -259px 1px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regCon4 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+  background-position: -77px 2px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regCon5 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 12px;
+  top: 9px;
+  background-position: -77px 2px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .checkBox {
+  width: 148px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .checkBox .idenCodePhone {
+  display: inline-block;
+  width: 146px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  background-color: #eaeaea;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regInput3 {
+  width: 101px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox canvas {
+  position: relative;
+  z-index: 100;
+  display: block;
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 3px;
+  z-index: 1;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regFalse {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  background-position: -162px 0;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  display: none;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regFalse2 {
+  right: 90px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regFalse3 {
+  right: 165px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regTrue {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  background-position: -139px 0;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  display: none;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regTrue2 {
+  right: 90px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .regTrue3 {
+  right: 165px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .poiFalse {
+  background: #ed787f;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  padding: 0 8px;
+  position: absolute;
+  top: 37px;
+  right: 0px;
+  font-size: 12px;
+  display: none;
+  z-index: 3;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .regInputBox .poisr {
+  background: #ccc;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  padding: 0 8px;
+  position: absolute;
+  top: 37px;
+  right: 0px;
+  font-size: 12px;
+  display: none;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .strength {
+  float: left;
+  padding: 10px 0 0 10px;
+  height: 32px;
+  width: 100px;
+  display: none;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .strength b {
+  display: inline-block;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #666;
+  font-weight: normal;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .strength .strength1 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  background-position: -222px -99px;
+  display: inline-table;
+  margin: 0 5px;
+  width: 44px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .strength .strength2 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  background-position: -269px -99px;
+  display: inline-table;
+  margin: 0 5px;
+  width: 44px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccInfor .strength .strength3 {
+  background: url(../img/regLogin-8.png) no-repeat 0 0;
+  background-position: -316px -99px;
+  display: inline-table;
+  margin: 0 5px;
+  width: 44px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccBut {
+  margin: 8px 0 0 260px;
+  width: 520px;
+  height: 43px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccBut .regAgreeBox {
+  line-height: 22px;
+  width: 302px;
+  position: relative;
+  height: 43px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccBut .regAgreeBox input {
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccBut .regAgreeBox .regAgree {
+  display: inline-block;
+  color: #999;
+  margin-left: 10px;
+  margin-top: 12px;
+  margin-bottom: 9px;
+  height: 22px;
+  font-size: 12px;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccBut .regInputBox {
+  height: 42px;
+  width: 302px;
+  float: left;
+  position: relative;
+}
+
+.main .jx_main .jx_content .jx_regBox .regConWrap .regCon .regAccBut .regInputBox .regSub {
+  width: 302px;
+  height: 42px;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  color: #fff;
+  border-radius: 2px;
+  border: none;
+  background: #e10303;
+  cursor: pointer;
+}
+
+.footer {
+  height: 90px;
+  width: 100%;
+  padding: 10px 0 0;
+}
+
+.footer .jx_foot {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  height: 60px;
+  font-size: 12px;
+  color: #333;
+}
+
+.footer .jx_foot p {
+  line-height: 30px;
+}

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>地方名酒</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/com.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../js/lazyload1.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/list.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="welcome">欢迎来到酒仙网！</p>
+            <a class="headerlog" id="headerlog" href="../html/login.html">请登录</a>
+            <a class="headerreg" id="headerreg" href="./../html/reg.html">免费注册</a>
+            <a href="javascript;" id="jinbi">金币</a>
+            <ul class="headerlist">
+                <li class="h_l1"><a href="javascript:;" class="h_l1_title">我的酒仙</a><s class="publicIcon1"></s>
+                    <div class="h_l1_hide">
+                        <a href="javascript:;">我的订单</a>
+                        <a href="javascript:;">物流跟踪</a>
+                        <a href="javascript:;">我的优惠券</a>
+                    </div>
+                </li>
+                <li class="h_l2"><a href="">CEO邮箱</a></li>
+                <li class="h_l3">
+                    <s class="publicIcon2"></s>
+                    <a href="">购物车<span>0</span>件</a>
+                </li>
+                <li class="h_l4">
+                    <a href="javascript:;">CLUB会员</a>
+                    <s></s>
+                </li>
+                <li class="h_l5">
+                    <a href="javascript:;">招商入驻</a>
+                    <s></s>
+                </li>
+                <li class="h_l6">
+                    <a href=""><i class="publicIcon3"></i>手机逛酒仙</a>
+                    <s></s>
+                    <div class="h_l6_hide">
+                        <img src="../img/jxPho-code.jpg" alt="酒仙网">
+                    </div>
+                </li>
+                <li class="h_l7">
+                    <i class="publicIcon4"></i>
+                    <a href="javascript:;" class="h_l7_title">网站导航</a>
+                    <i class="publicIcon5"></i>
+                    <div class="h_l7_hide">
+                        <div class="h_l7_hide1">
+                            <div class="l7_hide1_com">
+                                <p>购物</p>
+                                <a href="#">白酒</a>
+                                <a href="#">葡萄酒</a>
+                                <a href="#">洋酒</a>
+                                <a href="#">啤酒</a>
+                                <a href="#">保健酒</a>
+                                <a href="#">黄酒</a>
+                            </div>
+                        </div>
+                        <div class="h_l7_hide2">
+                            <div class="l7_hide1_com">
+                                <p>活动</p>
+                                <a href="#">愚酒相约</a>
+                                <a href="#">进口馆</a>
+                                <a href="#">酒鬼酒</a>
+                                <a href="#">老酒特卖</a>
+                                <a href="#">新品发现</a>
+                                <a href="#">值得买</a>
+                            </div>
+                        </div>
+                        <div class="h_l7_hide3">
+                            <div class="l7_hide1_com">
+                                <p>其他</p>
+                                <a href="#">会员中心</a>
+                                <a href="#">社区</a>
+                                <a href="#">常见问题</a>
+                                <a href="#">招商入驻</a>
+                                <a href="#">酒类咨询</a>
+                                <a href="#">VIP注册</a>
+                            </div>
+                        </div>
+                        <div class="h_l7_hide4">
+                            <span>咨询热线：400-617-9999</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="h_l8">
+                    <i class="publicIcon6"></i>
+                    <a href="" class="h_l8_title">客户服务</a>
+                    <i class="publicIcon7"></i>
+                    <div class="h_l8_hide">
+                        <a href="#">常见问题</a>
+                        <a href="#">配送说明</a>
+                        <a href="#">售后服务</a>
+                    </div>
+                </li>
+                <li class="h_l9">
+                    <span class="h_l9_sp1">客服热线</span>
+                    <span class="h_l9_phone">400-617-9999</span>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <nav>
+        <div class="nav_pic1">
+            <a href="javascript:;"></a>
+        </div>
+        <div class="research">
+            <div class="container">
+                <div class="logo">
+                    <a href="../Page.html"><img src="../img/logo.png" alt="" class="logo1"></a>
+                    <a href="javascript:;"><img src="../img/giflogo.gif" alt=""></a>
+                </div>
+                <div class="researchbox">
+                    <div class="researchtex">
+                        <input type="text" class="restex" placeholder="510中国品牌日： 折后满300减30" autocomplete="off">
+                        <input type="button" class="resbtn" value="搜 索">
+                    </div>
+                    <div class="hotwords">
+                        <a href="javascript:;">茅台</a>
+                        <a href="javascript:;">五粮液</a>
+                        <a href="javascript:;">酒鬼</a>
+                        <a href="javascript:;">拉菲</a>
+                        <a href="javascript:;">郎酒</a>
+                        <a href="javascript:;">黄尾袋鼠</a>
+                        <a href="javascript:;">水井坊</a>
+                        <a href="javascript:;">泸州老窖</a>
+                        <a href="javascript:;">奔富</a>
+                        <a href="javascript:;">董酒</a>
+                    </div>
+                </div>
+                <div class="news">
+                    <img src="../img/headerProPic1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="nav_list">
+            <div class="container">
+                <span class="nav_list_sp">全部商品分类
+                    <div class="nav_list_sec">
+                        <div class="list_same">
+                            <p><i class="publicIcon8"></i>一键选酒</p>
+                            <a href="javascript:;">整箱购</a>
+                            <a href="javascript:;">家乡名酒</a>
+                            <a href="javascript:;">年份老酒</a>
+                            <a href="javascript:;">地域名酒</a>
+                            <a href="javascript:;">值得买</a>
+                            <a href="javascript:;">实惠大坛</a>
+                            <div class="nav_list_hide">
+                                <div class="hide_left">
+                                    <div class="left_mod1">
+                                        <div class="mod1_l">
+                                            <p>特色会场</p>
+                                        </div>
+                                        <div class="mod1_r">
+                                            <a href="javascript:;">整箱购</a>
+                                            <a href="javascript:;">精品酒铺</a>
+                                            <a href="javascript:;">家乡名酒</a>
+                                            <a href="javascript:;">年份老酒</a>
+                                            <a href="javascript:;">实惠大坛</a>
+                                            <a href="javascript:;">有礼有面</a>
+                                            <a href="javascript:;">海外直采</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>精选会场</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>企业用酒</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>红洋酒专区</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l lastmod">
+                                            <p>名庄推荐</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hide_right">
+                                    <img src="../img/list_hide1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list_same">
+                            <p><i class="publicIcon8"></i>一键选酒</p>
+                            <a href="javascript:;">整箱购</a>
+                            <a href="javascript:;">家乡名酒</a>
+                            <a href="javascript:;">年份老酒</a>
+                            <a href="javascript:;">地域名酒</a>
+                            <a href="javascript:;">值得买</a>
+                            <a href="javascript:;">实惠大坛</a>
+                            <div class="nav_list_hide">
+                                <div class="mod1">
+                                    <div class="mod1left">
+                                        <p>酒具</p>
+                                    </div>
+                                    <div class="mod1right">
+                                        <a href="javascript:;">凯洛诗</a>
+                                        <a href="javascript:;">酒杯</a>
+                                        <a href="javascript:;">开瓶器</a>
+                                        <a href="javascript:;">醒酒器</a>
+                                        <a href="javascript:;">海马酒杯</a>
+                                        <a href="javascript:;">香槟杯</a>
+                                        <a href="javascript:;">直身杯</a>
+                                        <a href="javascript:;">水晶高脚杯</a>
+                                        <a href="javascript:;">烈酒杯</a>
+                                        <a href="javascript:;">鸡尾酒杯</a>
+                                        <a href="javascript:;">酒架</a>
+                                        <a href="javascript:;">冰酒石</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left">
+                                        <p>茶叶</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">云顶古树普洱</a>
+                                        <a href="javascript:;">南国公主</a>
+                                        <a href="javascript:;">更多&gt;&gt;</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left">
+                                        <p>电子烟</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">iv电子烟</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left lastmod2">
+                                        <p>食品</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">零食</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list_same">
+                            <p><i class="publicIcon8"></i>一键选酒</p>
+                            <a href="javascript:;">整箱购</a>
+                            <a href="javascript:;">家乡名酒</a>
+                            <a href="javascript:;">年份老酒</a>
+                            <a href="javascript:;">地域名酒</a>
+                            <a href="javascript:;">值得买</a>
+                            <a href="javascript:;">实惠大坛</a>
+                            <div class="nav_list_hide">
+                                <div class="hide_left">
+                                    <div class="left_mod1">
+                                        <div class="mod1_l">
+                                            <p>特色会场</p>
+                                        </div>
+                                        <div class="mod1_r">
+                                            <a href="javascript:;">整箱购</a>
+                                            <a href="javascript:;">精品酒铺</a>
+                                            <a href="javascript:;">家乡名酒</a>
+                                            <a href="javascript:;">年份老酒</a>
+                                            <a href="javascript:;">实惠大坛</a>
+                                            <a href="javascript:;">有礼有面</a>
+                                            <a href="javascript:;">海外直采</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>精选会场</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>企业用酒</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>红洋酒专区</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l lastmod">
+                                            <p>名庄推荐</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hide_right">
+                                    <img src="../img/list_hide1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list_same">
+                            <p><i class="publicIcon8"></i>一键选酒</p>
+                            <a href="javascript:;">整箱购</a>
+                            <a href="javascript:;">家乡名酒</a>
+                            <a href="javascript:;">年份老酒</a>
+                            <a href="javascript:;">地域名酒</a>
+                            <a href="javascript:;">值得买</a>
+                            <a href="javascript:;">实惠大坛</a>
+                            <div class="nav_list_hide">
+                                <div class="mod1">
+                                    <div class="mod1left">
+                                        <p>酒具</p>
+                                    </div>
+                                    <div class="mod1right">
+                                        <a href="javascript:;">凯洛诗</a>
+                                        <a href="javascript:;">酒杯</a>
+                                        <a href="javascript:;">开瓶器</a>
+                                        <a href="javascript:;">醒酒器</a>
+                                        <a href="javascript:;">海马酒杯</a>
+                                        <a href="javascript:;">香槟杯</a>
+                                        <a href="javascript:;">直身杯</a>
+                                        <a href="javascript:;">水晶高脚杯</a>
+                                        <a href="javascript:;">烈酒杯</a>
+                                        <a href="javascript:;">鸡尾酒杯</a>
+                                        <a href="javascript:;">酒架</a>
+                                        <a href="javascript:;">冰酒石</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left">
+                                        <p>茶叶</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">云顶古树普洱</a>
+                                        <a href="javascript:;">南国公主</a>
+                                        <a href="javascript:;">更多&gt;&gt;</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left">
+                                        <p>电子烟</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">iv电子烟</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left lastmod2">
+                                        <p>食品</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">零食</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list_same">
+                            <p><i class="publicIcon8"></i>一键选酒</p>
+                            <a href="javascript:;">整箱购</a>
+                            <a href="javascript:;">家乡名酒</a>
+                            <a href="javascript:;">年份老酒</a>
+                            <a href="javascript:;">地域名酒</a>
+                            <a href="javascript:;">值得买</a>
+                            <a href="javascript:;">实惠大坛</a>
+                            <div class="nav_list_hide">
+                                <div class="hide_left">
+                                    <div class="left_mod1">
+                                        <div class="mod1_l">
+                                            <p>特色会场</p>
+                                        </div>
+                                        <div class="mod1_r">
+                                            <a href="javascript:;">整箱购</a>
+                                            <a href="javascript:;">精品酒铺</a>
+                                            <a href="javascript:;">家乡名酒</a>
+                                            <a href="javascript:;">年份老酒</a>
+                                            <a href="javascript:;">实惠大坛</a>
+                                            <a href="javascript:;">有礼有面</a>
+                                            <a href="javascript:;">海外直采</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>精选会场</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>企业用酒</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l">
+                                            <p>红洋酒专区</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="left_mod2">
+                                        <div class="mod2_l lastmod">
+                                            <p>名庄推荐</p>
+                                        </div>
+                                        <div class="mod2_r">
+                                            <a href="javascript:;" class="hotcolor">新品尝鲜</a>
+                                            <a href="javascript:;">清仓特卖</a>
+                                            <a href="javascript:;">值得买</a>
+                                            <a href="javascript:;" class="hotcolor">名优白酒</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hide_right">
+                                    <img src="../img/list_hide1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav_last">
+                            <p><i class="publicIcon9"></i>时尚</p>
+                            <a href="" class="on">酒具</a>
+                            <a href="">茶叶</a>
+                            <a href="" class="on">电子烟</a>
+                            <div class="nav_list_hide">
+                                <div class="mod1">
+                                    <div class="mod1left">
+                                        <p>酒具</p>
+                                    </div>
+                                    <div class="mod1right">
+                                        <a href="javascript:;">凯洛诗</a>
+                                        <a href="javascript:;">酒杯</a>
+                                        <a href="javascript:;">开瓶器</a>
+                                        <a href="javascript:;">醒酒器</a>
+                                        <a href="javascript:;">海马酒杯</a>
+                                        <a href="javascript:;">香槟杯</a>
+                                        <a href="javascript:;">直身杯</a>
+                                        <a href="javascript:;">水晶高脚杯</a>
+                                        <a href="javascript:;">烈酒杯</a>
+                                        <a href="javascript:;">鸡尾酒杯</a>
+                                        <a href="javascript:;">酒架</a>
+                                        <a href="javascript:;">冰酒石</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left">
+                                        <p>茶叶</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">云顶古树普洱</a>
+                                        <a href="javascript:;">南国公主</a>
+                                        <a href="javascript:;">更多&gt;&gt;</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left">
+                                        <p>电子烟</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">iv电子烟</a>
+                                    </div>
+                                </div>
+                                <div class="mod2">
+                                    <div class="mod2left lastmod2">
+                                        <p>食品</p>
+                                    </div>
+                                    <div class="mod2right">
+                                        <a href="javascript:;">零食</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+                <ul class="nav_ul">
+                    <li><a href="../Page.html">首页</a></li>
+                    <li><a href="javascript:;">领券中心</a></li>
+                    <li><a href="javascript:;">酒鬼酒专场</a>
+                        <span class="hotlogo"></span></li>
+                    <li><a href="javascript:;">值得买</a>
+                        <span class="hotlogo"></li>
+                    <li><a href="javascript:;">葡萄酒馆</a></li>
+                    <li><a href="javascript:;">自营甄选</a>
+                        <span class="hotlogo"></li>
+                    <li><a href="javascript:;">洋酒馆</a></li>
+                    <li><a href="javascript:;">新品</a></li>
+                    <li><a href="javascript:;">CLUB</a></li>
+                </ul>
+                <a href="javascript:;"><img src="../img/navlist_gif.gif" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main_bg">
+            <img src="../img/list_bg1.jpg" alt="">
+            <img src="../img/list_bg2.jpg" alt="">
+            <img src="../img/list_bg3.jpg" alt="">
+            <img src="../img/list_bg4.jpg" alt="">
+            <img src="../img/list_bg5.jpg" alt="">
+        </div>
+        <!-- 懒加载 -->
+        <div class="listBox clearfix">
+            <img src="../img/listsbg1.jpg" alt="" class="libg1">
+            <ul class="allLists clearfix">
+                <!-- <li>
+                    <div class="sComPic">
+                        <img src="../img/listgood1.jpg" alt="">
+                    </div>
+                    <div class="sComIntro">
+                        <p class="sTitle"><a href="javascript:;">43°茅台飞天500ml</a></p>
+                        <p class="sComempty"></p>
+                        <p class="sComPrice">
+                            <span>￥<em>999.00</em></span>
+                            <a href="javascript:;" target="_blank" class="sBayBut">立即抢购</a>
+                        </p>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="returnTop">
+            <a href="javascript:;">
+                <img src="../img/listreturn.jpg" alt="">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="footerTop">
+            <div class="container">
+                <div class="footerContact">
+                    <i class="ftIcon1"></i>
+                    <b>400-617-9999</b>
+                    <span>客服热线</span>
+                    <span>9:00-23:00</span>
+                    <span>贴心服务</span>
+                </div>
+                <div class="footerTopRight">
+                    <div class="ftRightTit">优惠促销早知道</div>
+                    <div class="ftRightform">
+                        <input type="text" placeholder="请输入您的邮箱地址">
+                        <i class="ftRIcon1"></i>
+                    </div>
+                </div>
+                <img src="../img/footerpic1.png" alt="">
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container">
+                <img src="../img/footerpic2.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

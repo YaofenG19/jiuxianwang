@@ -1,0 +1,85 @@
+.nav_list_sec {
+  display: none; }
+
+.nav_list_sp:hover .nav_list_sec {
+  display: block; }
+
+main {
+  width: 100%;
+  background: #f0ebe8; }
+  main .main_bg {
+    margin-bottom: 10px;
+    height: 350px; }
+    main .main_bg img {
+      width: 100%; }
+  main .listBox {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%; }
+    main .listBox li {
+      float: left;
+      width: 240px;
+      margin: 0 10px 10px 0;
+      height: 359px; }
+      main .listBox li .sComPic {
+        width: 100%;
+        height: 240px;
+        text-align: center;
+        border-bottom: 1px dashed #bbb;
+        position: relative;
+        background: #fff; }
+        main .listBox li .sComPic img {
+          width: 240px;
+          height: 240px; }
+      main .listBox li .sComIntro {
+        width: 90%;
+        height: 95px;
+        padding: 11px 5% 12px;
+        background: #f4f4f4; }
+        main .listBox li .sComIntro .sTitle {
+          height: 18px;
+          line-height: 18px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          width: 216px; }
+          main .listBox li .sComIntro .sTitle a {
+            color: #333;
+            font-size: 12px; }
+            main .listBox li .sComIntro .sTitle a:hover {
+              text-decoration: underline; }
+        main .listBox li .sComIntro .sComempty {
+          height: 18px;
+          line-height: 18px;
+          color: #F90;
+          white-space: nowrap;
+          padding-top: 3px; }
+        main .listBox li .sComIntro .sComPrice {
+          height: 26px;
+          line-height: 26px;
+          padding-top: 10px; }
+          main .listBox li .sComIntro .sComPrice span {
+            font-size: 14px;
+            font-weight: bold;
+            color: #f00808;
+            float: left; }
+            main .listBox li .sComIntro .sComPrice span em {
+              font-style: normal;
+              font-size: 26px; }
+          main .listBox li .sComIntro .sComPrice .sBayBut {
+            float: right;
+            height: 26px;
+            line-height: 26px;
+            padding: 0 10px;
+            font-size: 13px;
+            color: #fff;
+            background: #e51831;
+            border-radius: 5px; }
+    main .listBox .libg1 {
+      margin-bottom: 20px; }
+  main .returnTop {
+    height: 116px;
+    width: 990px;
+    margin: 0 auto;
+    overflow: hidden; }
+
+/*# sourceMappingURL=list.css.map */

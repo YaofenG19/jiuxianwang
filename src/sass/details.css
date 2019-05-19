@@ -1,0 +1,699 @@
+@charset "UTF-8";
+.nav_list_sec {
+  display: none;
+}
+
+.nav_list_sp:hover .nav_list_sec {
+  display: block;
+}
+
+main .container {
+  width: 1200px;
+  margin: auto;
+  height: 100%;
+}
+
+main .container .dTop {
+  height: 70px;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+main .container .dGuide {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+main .container .dGuide a {
+  color: #666;
+  font-size: 12px;
+}
+
+main .container .dGuide a:hover {
+  text-decoration: underline;
+  color: #cc3333;
+}
+
+main .container .dGuide i {
+  color: #999999;
+  font-style: normal;
+  font-family: 宋体;
+  padding: 0px 8px;
+}
+
+main .container .dGuide .d_cur {
+  color: #cc3333;
+  font-size: 12px;
+}
+
+main .container .dIntro {
+  width: 1198px;
+  height: 570px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 20px;
+}
+
+main .container .dIntro .dIntroShow {
+  width: 440px;
+  padding-bottom: 18px;
+  height: 570px;
+  float: left;
+}
+
+main .container .dIntro .dIntroShow .showOther {
+  padding: 22px 20px 0;
+  height: 20px;
+  line-height: 20px;
+  width: 380px;
+}
+
+main .container .dIntro .dIntroShow .showOther .goodsNo {
+  float: left;
+  font-size: 12px;
+  color: #666;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight {
+  float: right;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight .showCollect {
+  float: right;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight .showCollect .scIcon {
+  background: url(../img/d-icon.png) no-repeat 0 0;
+  background-position: -148px -14px;
+  cursor: pointer;
+  width: 13px;
+  height: 12px;
+  margin: 4px 4px 0 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight .showCollect span {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  display: inline-block;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight .showshare {
+  float: right;
+  margin-right: 15px;
+  position: relative;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight .showshare .ssIcon {
+  background: url(../img/d-icon.png) no-repeat 0 0;
+  width: 15px;
+  height: 15px;
+  background-position: -125px -1px;
+  margin: 2px 5px 0 0;
+  display: inline-block;
+}
+
+main .container .dIntro .dIntroShow .showOther .otherRight .showshare span {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  display: inline-block;
+}
+
+main .container .dIntro .dIntroInfo {
+  width: 548px;
+  min-height: 533px;
+  padding: 20px 0 10px 10px;
+  border-right: 0;
+  float: left;
+}
+
+main .container .dIntro .dIntroInfo .comName {
+  padding: 0 10px 5px;
+}
+
+main .container .dIntro .dIntroInfo .comName h1 {
+  width: 528px;
+  font-size: 16px;
+  min-height: 20px;
+  line-height: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap {
+  background: #fafafa;
+  margin-top: 5px;
+  position: relative;
+  z-index: 2;
+  padding: 10px;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox {
+  width: 528px;
+  line-height: 30px;
+  height: 55px;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .infoTit {
+  color: #666;
+  padding-right: 28px;
+  width: 36px;
+  font-size: 12px;
+  float: left;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .nowPrice {
+  width: 464px;
+  float: left;
+  height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .nowPrice .pri {
+  color: #cc3333;
+  float: left;
+  height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .nowPrice .pri em {
+  font-size: 14px;
+  font-style: normal;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .nowPrice .pri strong {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .clubDisc {
+  height: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+  float: left;
+  margin-left: 64px;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .clubDisc .clubImg {
+  background: url(../img/clubImg.jpg) no-repeat;
+  width: 37px;
+  height: 16px;
+  overflow: hidden;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .clubDisc span {
+  font-size: 12px;
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .clubDisc a {
+  color: #3355aa;
+  margin-left: 10px;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .clubDisc a:hover {
+  text-decoration: underline;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .mobileBay {
+  width: 104px;
+  height: 26px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .mobileBay .mb_head {
+  width: 104px;
+  height: 26px;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: middle;
+  font-size: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 0;
+  background: #fff;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .mobileBay .mb_head .dIcon {
+  background: url(../img/d-icon.png) no-repeat 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  background-position: -305px 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .mobileBay .mb_head span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 26px;
+  width: auto;
+  margin: 0;
+  color: #666;
+}
+
+main .container .dIntro .dIntroInfo .infoWrap .priceBox .mobileBay .mb_head .dIcon1 {
+  background: url(../img/d-icon.png) no-repeat 0 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 10px;
+  height: 5px;
+  background-position: -122px -46px;
+  overflow: hidden;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold {
+  border-bottom: 1px dotted #d6d6d6;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul {
+  padding-left: 70px;
+  height: 38px;
+  line-height: 38px;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li {
+  float: left;
+  width: 30%;
+  vertical-align: middle;
+  font-size: 12px;
+  height: 38px;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li .dIcon {
+  background: url(../img/d-icon.png) no-repeat;
+  background-position: -194px 0;
+  width: 15px;
+  height: 13px;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li span {
+  color: #999;
+  margin: 0 8px 0 6px;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li em {
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  color: #999;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li .dIcon1 {
+  background-position: -214px 0;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li .dIcon2 {
+  background-position: -194px 0;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li .dIcon3 {
+  background-position: -232px 1px;
+}
+
+main .container .dIntro .dIntroInfo .salesScoreGold ul li a {
+  background: url(../img/d-icon.png) no-repeat;
+  background-position: -251px -18px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay {
+  padding: 10px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .jt {
+  margin: 12px 0 5px 0;
+  height: 19px;
+  line-height: 19px;
+  width: 528px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .jt .infoTit {
+  float: left;
+  width: 36px;
+  color: #666;
+  padding-right: 28px;
+  font-size: 12px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .jt .infoCopons {
+  float: left;
+  width: 464px;
+  height: 19px;
+  font-size: 12px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .jt .infoCopons .jt_list {
+  float: left;
+  height: 19px;
+  color: #cc3333;
+  line-height: 19px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .jt .infoCopons .jt_list span {
+  cursor: pointer;
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .yh {
+  margin: 12px 0 5px 0;
+  height: 19px;
+  line-height: 19px;
+  width: 528px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .yh .infoTit {
+  color: #666;
+  float: left;
+  width: 36px;
+  padding-right: 28px;
+  font-size: 12px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .yh .infoCon {
+  float: left;
+  width: 464px;
+  height: 19px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .yh .infoCon .couponsLead {
+  height: 19px;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .yh .infoCon .couponsLead i {
+  background: url(../img/coupon_left.jpg) no-repeat;
+  float: left;
+  width: 12px;
+  height: 19px;
+  display: block;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .yh .infoCon .couponsLead span {
+  float: left;
+  height: 17px;
+  line-height: 18px;
+  color: #cc3333;
+  border-top: 1px solid #cc3333;
+  border-bottom: 1px solid #cc3333;
+  border-right: 1px solid #cc3333;
+  background: #fff1f2;
+  display: block;
+  padding: 0 16px 0 6px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .cityBox {
+  width: 528px;
+  line-height: 30px;
+  margin: 12px 0 10px 0;
+  height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .cityBox .infoTit {
+  color: #666;
+  font-size: 12px;
+  float: left;
+  width: 36px;
+  padding-right: 28px;
+  height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox {
+  width: 528px;
+  margin-bottom: 8px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoTit {
+  color: #666;
+  font-size: 12px;
+  float: left;
+  width: 36px;
+  line-height: 32px;
+  padding-right: 28px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoChoose {
+  width: 464px;
+  float: left;
+  height: 84px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoChoose ul .choItem {
+  float: left;
+  height: 32px;
+  padding: 0 10px 10px 0;
+  border: none;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoChoose ul .choItem a {
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  width: auto !important;
+  height: 30px;
+  border: 1px solid #e5e5e5;
+  white-space: nowrap;
+  vertical-align: middle;
+  position: relative;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoChoose ul .choItem a:hover {
+  border: 1px solid #cc3333;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoChoose ul .choItem a span {
+  font-size: 12px;
+  color: #666;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0 5px 0 2px;
+  line-height: 32px;
+  height: 32px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .chooseBox .infoChoose ul .choItem a .dIcon11 {
+  background: url(../img/d-icon.png) no-repeat;
+  font-style: normal;
+  background-position: -50px -24px;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: default;
+  display: none;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox {
+  width: 528px;
+  margin-bottom: 28px;
+  height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox .infoTit {
+  color: #666;
+  float: left;
+  width: 36px;
+  padding-right: 28px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox .infoBuyNum {
+  float: left;
+  width: 464px;
+  height: 30px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox .infoBuyNum .buyNum {
+  float: left;
+  width: 66px;
+  height: 30px;
+  position: relative;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox .infoBuyNum .buyNum input {
+  border: 1px solid #999;
+  float: left;
+  width: 26px;
+  height: 28px;
+  line-height: 28px;
+  color: #666;
+  font-family: "Microsoft YaHei";
+  padding: 0 8px;
+  vertical-align: middle;
+  outline: 0;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox .infoBuyNum .buyNum .buyNum_add {
+  background: url(../img/d-icon.png) no-repeat 0 0;
+  border: 1px solid #999;
+  background-position: -70px -25px;
+  top: 0;
+  overflow: hidden;
+  display: block;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+  right: 0;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayNumBox .infoBuyNum .buyNum .buyNum_reduce {
+  background: url(../img/d-icon.png) no-repeat 0 0;
+  border: 1px solid #999;
+  background-position: -70px -41px;
+  top: 17px;
+  overflow: hidden;
+  display: block;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+  right: 0;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayBtnBox {
+  width: 528px;
+  margin-bottom: 18px;
+  overflow: hidden;
+  position: relative;
+  line-height: 30px;
+  height: 40px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayBtnBox .infoBuy {
+  width: 550px;
+  padding-left: 64px;
+  height: 40px;
+}
+
+main .container .dIntro .dIntroInfo .comChooseBay .bayBtnBox .infoBuy a {
+  border: 1px solid #ffcccc;
+  background: #cc3333;
+  color: #fff;
+  display: inline-block;
+  width: 166px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+main .container .dIntro .introOther {
+  float: left;
+  width: 200px;
+  height: 454px;
+}
+
+main .container .dIntro .introOther .introLogo {
+  text-align: center;
+  padding: 0 15px;
+}
+
+main .container .dIntro .introOther .introLogo .introP {
+  padding: 30px 0 20px;
+  border-bottom: 1px dotted #d7d7d7;
+}
+
+main .container .dIntro .introOther .introLogo .introP .jxzy {
+  display: block;
+  width: 54px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  background: #cf000e;
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-top: 2px;
+  font-size: 12px;
+  font-style: normal;
+}
+
+main .container .dIntro .introOther .introSaf {
+  padding-left: 35px;
+}
+
+main .container .dIntro .introOther .introSaf img {
+  margin-top: 20px;
+}
+
+main .container .dIntro .introOther .kefudetail {
+  padding-left: 35px;
+}
+
+main .container .dIntro .introOther .kefudetail a {
+  height: 28px;
+  line-height: 28px;
+  background: #fafafa;
+  text-align: center;
+  display: block;
+  border-radius: 2px;
+  border: 1px solid #e9e9e9;
+  font-size: 0;
+  width: 104px;
+  cursor: pointer;
+  margin-top: 15px;
+  color: #666666;
+  font-family: "宋体";
+}
+
+main .container .dIntro .introOther .kefudetail a i {
+  background: url(../img/cus-1.png) no-repeat;
+  animation: upDown ease-in 0.8s infinite;
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 17px;
+  height: 22px;
+}
+
+main .container .dIntro .introOther .kefudetail a span {
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/com.css">
+    <link rel="stylesheet" href="../css/car.css">
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/car.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- <p class="welcome">欢迎来到酒仙网！</p> -->
+            <a class="headerlog" id="headerlog" href="../html/login.html">Hi 请登录</a>
+            <span id="user"></span>
+            <a class="headerreg" id="headerreg" href="./../html/reg.html">免费注册</a>
+            <a href="../Page.html" class="abort">退出</a>
+            <a href="javascript;" id="jinbi">金币</a>
+            <ul class="headerlist">
+                <li class="h_l1"><a href="javascript:;" class="h_l1_title">我的酒仙</a>
+                </li>
+                <li class="h_l2"><a href="">我的酒仙网</a></li>
+
+                <li class="h_l9">
+                    <span class="h_l9_sp1">客服热线</span>
+                    <span class="h_l9_phone">400-617-9999</span>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="midHeader">
+                <div class="jxwlogo">
+                    <p><a href="../Page.html"></a></p>
+                </div>
+                <div class="bayProcess">
+                    <div class="proPic"></div>
+                    <div class="proYex">
+                        <span class="on1">我的购物车</span>
+                        <span class="on2">确认订单信息</span>
+                        <span class="on3">成功提交</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cartMain">
+                <div id="cartContanier">
+                    <div class="f_Prompt">
+                        <i class="cartIcon"></i>
+                        <span>温馨提示：自营商品实付满100元免邮费，偏远地区满500免邮费</span>
+                    </div>
+                    <div class="cart_t">
+                        <div class="vart_filter_bar">
+                            <div class="my_cart_tit">
+                                我的购物车
+                                <!-- <span class="listnum"></span> -->
+                            </div>
+                            <div class="areaBox"></div>
+                            <div class="mz_distri_addr">配送至</div>
+                        </div>
+                    </div>
+                    <div class="cart_thead">
+                        <input type="checkbox" id="allcheck">
+                        <label for="allcheck" class="allcheckText">全选</label>
+                        <span class="cartitle">商品信息</span>
+                        <span class="cartprice">单价</span>
+                        <span class="cartgold">送金币</span>
+                        <span class="cartNum">数量</span>
+                        <span class="cartsubtotaltext">小计</span>
+                        <span class="cartoperating">操作</span>
+                    </div>
+                    <div class="cart_tbody">
+                        <div class="cart_shop">
+                            <input type="checkbox" class="ckeckone">
+                            <div class="shoptype">
+                                <i class="cartjxzy"></i>
+                                <span>酒仙自营</span>
+                            </div>
+                            <div class="cartcheap">
+                                <div class="voucher_wrap">
+                                    <em></em>
+                                    <div class="voucher_shell">
+                                        <span>优惠券</span>
+                                        <i></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="postage">
+                                自营实付金额满<span>100元</span>包邮
+                            </div>
+                        </div>
+                        <div class="cart_list_wrap">
+                            <div class="g_type">
+                                <!-- <div class="cart_list">
+                                    <div class="cartgoods">
+                                        <div class="checkBox">
+                                            <input type="checkbox">
+                                        </div>
+                                        <div class="cartgds">
+                                            <div class="goods_info">
+                                                <div class="goods_img">
+                                                    <img src="../img/ListSmallPic1.jpg" alt="">
+                                                </div>
+                                                <div class="goods_right">
+                                                    <span class="goods_title">51°茅台汉酱铂金蓝500ml</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="cartprice"><span class="cart_price">￥598.00</span>
+                                        </div>
+                                        <div class="cartgold">
+                                            <span>297金币</span>
+                                        </div>
+                                        <div class="cartquantity">
+                                            <div class="goodsnum">
+                                                <span class="reduce">-</span>
+                                                <input type="text" class="num" value="1" autocomplete="off" minmun="1">
+                                                <span class="add">+</span>
+                                            </div>
+                                        </div>
+                                        <div class="cartsubtotal">￥598.00</div>
+                                        <div class="cartoperating">
+                                            <p class="list_del">删除</p>
+                                            <p class="move_collect">移入我的收藏</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="cartGoPay">
+                <div class="cartGoPay_left">
+                    <input type="checkbox" class="allcheck">
+                    <span class="checkAllTxet">全选</span>
+                    <a href="javascript:;" id="delchecked">删除选中商品</a>
+                    <a href="javascript:;" id="delFail">清除失效商品</a>
+                    <a href="javascript:;" id="delToCollect">移入我的收藏</a>
+                </div>
+                <div class="cart_count">
+                    <div class="cart_count_total">
+                        <span class="pieces">
+                            已选商品<em>0</em>件
+                        </span>
+                        <span class="total">
+                            总价（不含运费）：￥<em>0.00</em>
+                        </span>
+                    </div>
+                    <div class="cart_count_offer">
+                        <span>赠送金币<em>596</em>个</span>
+                    </div>
+                </div>
+                <div class="cartGoPay_btn">
+                    <a href="javascript:;" class="done">去结算</a>
+                </div>
+            </div> 
+            
+        </div>
+
+    </main>
+    <footer>
+        <div class="footerTop">
+            <div class="container">
+                <div class="footerContact">
+                    <i class="ftIcon1"></i>
+                    <b>400-617-9999</b>
+                    <span>客服热线</span>
+                    <span>9:00-23:00</span>
+                    <span>贴心服务</span>
+                </div>
+                <div class="footerTopRight">
+                    <div class="ftRightTit">优惠促销早知道</div>
+                    <div class="ftRightform">
+                        <input type="text" placeholder="请输入您的邮箱地址">
+                        <i class="ftRIcon1"></i>
+                    </div>
+                </div>
+                <img src="../img/footerpic1.png" alt="" width="1000px">
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container">
+                <img src="../img/footerpic2.png" alt="" width="1000px">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/common.js"></script>
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+<body>
+    <div class="login">
+        <div class="header">
+            <div class="conhead">
+                <div class="jx_logo">
+                    <p><a href="../Page.html"></a></p>
+                    <img src="../img/slogan.jpg" alt="">
+                </div>
+                <div class="headNav">
+                    <span>帮助中心</span>
+                    <i class="jx_jt"></i>
+                    <div class="jx_pop">
+                        <ul class="headNavUL">
+                            <li>配送说明</li>
+                            <li>支付方式</li>
+                            <li>售后服务</li>
+                            <li>企业客户</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="jx_reg">
+                    欢迎来到酒仙网！
+                    <a href="./reg.html">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="jx_main">
+            <div class="jx_content">
+                <a href="javascript:;" class="jx_ewm">
+                    <i></i>
+                </a>
+                <div class="loginCon">
+                    <div class="loginTit">
+                        <a href="javascript:;" class="on">账号登录</a>
+                        <span>|</span>
+                        <a href="javascript:;">手机动态密码登录</a>
+                    </div>
+                    <div class="loginType">
+                        <div class="Frame">
+                            <div class="filter">
+                                <em class="userIconBox">
+                                    <i class="userIcon"></i>
+                                </em>
+                            </div>
+                            <input type="text" class="text" id="userName" autocomplete="off" placeholder="用户名/邮箱/手机号">
+                            <div class="mistakeTip">请输入用户名/邮箱/手机号</div>
+                        </div>
+                        <div class="Frame">
+                            <div class="filter">
+                                <em class="userIconBox">
+                                    <i class="pwdIcon"></i>
+                                </em>
+                            </div>
+                            <input type="password" id="password" class="text" autocomplete="off" placeholder="密码">   
+                            <div class="mistakeTip">请输入密码</div>
+                        </div>
+                        <div class="Frame">
+                            <div class="filter">
+                                <em class="userIconBox">
+                                    <i class="yzIcon"></i>
+                                </em>
+                            </div>
+                            <input type="text" class="loyzm text" id="verification" autocomplete="off" maxlength="5" placeholder="验证码">
+                            <div class="mistakeTip">请输入验证码</div>
+                            <i class="yzm">
+                                <canvas id="canvas" width="80" height="40"></canvas>
+                            </i>
+                        </div>
+                        <div class="loginBtn">
+                            <input type="button" id="save" value="登&nbsp;&nbsp;录">
+                        </div>
+                        <div class="moreChoice">
+                            <div class="auto">
+                                <input type="checkbox" class="check" name="" id="auto">
+                                <label for="auto">自动登录</label>
+                            </div>
+                            <a href="./reg.html" class="freeReg">免费注册</a>
+                            <a href="javascript:;" class="foget">忘记密码</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="jx_foot">
+            <p>&copy; &nbsp;酒仙网&nbsp; 2011 jiuxian.com All  Rights Reserved&nbsp; 京ICP证110141号&nbsp; 京公网安备1101050188221</p>
+            <p style="color:red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+        </div>
+    </div>
+</body>
+</html>

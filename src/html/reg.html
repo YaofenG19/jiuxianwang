@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../lib/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/zhengze.js"></script>
+    <script src="../js/reg.js"></script>
+
+</head>
+
+<body>
+    <div id="reg">
+        <div class="header">
+            <div class="conhead">
+                <div class="jx_logo">
+                    <p><a href="../Page.html"></a></p>
+                    <img src="../img/slogan.jpg" alt="">
+                </div>
+                <div class="headNav">
+                    <span>帮助中心</span>
+                    <i class="jx_jt"></i>
+                    <div class="jx_pop">
+                        <ul class="headNavUL">
+                            <li>配送说明</li>
+                            <li>支付方式</li>
+                            <li>售后服务</li>
+                            <li>企业客户</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="jx_reg">
+                    欢迎来到酒仙网！
+                    <a href="./login.html">请登录</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="jx_main">
+                <div class="jx_content">
+                    <div class="jx_regBox">
+                        <div class="jx_regTitBox">
+                            <a href="javascript:;" class="jx_regTit1">企业用户注册</a>
+                            <a href="javascript:;" class="jx_regTit2">个人用户注册</a>
+                        </div>
+                        <div class="regConWrap">
+                            <div class="regCon">
+                                <div class="regAccInfor">
+                                    <div class="reglabel">手机号</div>
+                                    <div class="regInputBox">
+                                        <input type="text" class="regInput" id="username">
+                                        <i class="regCon1"></i>
+                                        <i class="regFalse"></i>
+                                        <i class="regTrue"></i>
+                                        <span class="poiFalse">请输入正确的手机号码</span>
+                                        <span class="poisr">请输入11位手机号</span>
+                                    </div>
+                                </div>
+                                <div class="regAccInfor">
+                                    <div class="reglabel">验证码</div>
+                                    <div class="regInputBox">
+                                        <input type="text" class="regInput yzm" maxlength="4">
+                                        <i class="regCon2"></i>
+                                        <span class="regCap">
+                                            <canvas id="canvas" width="80" height="40"></canvas>
+                                        </span>
+                                        <i class="regFalse regFalse2"></i>
+                                        <i class="regTrue regTrue2"></i>
+                                        <span class="poiFalse">请输入验证码</span>
+                                    </div>
+                                </div>
+                                <div class="regAccInfor">
+                                    <div class="reglabel">校验码</div>
+                                    <div class="regInputBox">
+                                        <input type="text" class="regInput regInput3">
+                                        <i class="regCon3"></i>
+                                        <i class="regFalse regFalse3"></i>
+                                        <i class="regTrue regTrue3"></i>
+                                        <div class="checkBox">
+                                            <span class="idenCodePhone">获取短信验证码</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="regAccInfor">
+                                    <div class="reglabel">设置密码</div>
+                                    <div class="regInputBox">
+                                        <input type="password" class="regInput" id="password1">
+                                        <i class="regCon4"></i>
+                                        <i class="regFalse"></i>
+                                        <i class="regTrue"></i>
+                                        <span class="poisr">8-20位字符，数字，字母，符号至少包括两种</span>
+                                    </div>
+                                    <div class="strength">
+                                        <b>弱</b>
+                                        <i class="strength1"></i>
+                                        <b>强</b>
+                                    </div>
+                                    <div class="strength">
+                                        <b>弱</b>
+                                        <i class="strength2"></i>
+                                        <b>强</b>
+                                    </div>
+                                    <div class="strength">
+                                        <b>弱</b>
+                                        <i class="strength3"></i>
+                                        <b>强</b>
+                                    </div>
+                                </div>
+                                <div class="regAccInfor">
+                                    <div class="reglabel">确认密码</div>
+                                    <div class="regInputBox">
+                                        <input type="password" class="regInput" id="password2">
+                                        <i class="regCon5"></i>
+                                        <i class="regFalse"></i>
+                                        <i class="regTrue"></i>
+                                        <span class="poiFalse">请再次输入密码</span>
+                                    </div>
+                                </div>
+                                <div class="regAccBut">
+                                    <div class="regAgreeBox">
+                                        <input type="checkbox" checked="checked">
+                                        <span class="regAgree">
+                                            我已同意并阅读
+                                            <a href="javascript:;">《酒仙网用户注册协议》</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="regAccBut">
+                                    <div class="regInputBox">
+                                        <input type="button" class="regSub" id="regBtn" value="立&nbsp;即&nbsp;注&nbsp;册">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="jx_foot">
+                <p>&copy; &nbsp;酒仙网&nbsp; 2011 jiuxian.com All  Rights Reserved&nbsp; 京ICP证110141号&nbsp; 京公网安备1101050188221</p>
+                <p style="color:red">购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

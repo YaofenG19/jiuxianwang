@@ -1,0 +1,697 @@
+@charset "UTF-8";
+
+.nav_list_sec {
+    display: none;
+}
+
+.nav_list_sp:hover .nav_list_sec {
+    display: block;
+}
+
+main {
+    .container {
+        width: 1200px;
+        margin: auto;
+        height: 100%;
+
+        .dTop {
+            height: 70px;
+            overflow: hidden;
+            padding-top: 10px;
+        }
+
+        .dGuide {
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 10px;
+            ;
+
+            a {
+                color: #666;
+                font-size: 12px;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: #cc3333;
+                }
+            }
+
+            i {
+                color: rgb(153, 153, 153);
+                font-style: normal;
+                font-family: 宋体;
+                padding: 0px 8px;
+            }
+
+            .d_cur {
+                color: #cc3333;
+                font-size: 12px;
+            }
+        }
+
+        .dIntro {
+            width: 1198px;
+            height: 570px;
+            border: 1px solid #f2f2f2;
+            margin-bottom: 20px;
+
+            .dIntroShow {
+                width: 440px;
+                padding-bottom: 18px;
+                height: 570px;
+                float: left;
+
+                .showOther {
+                    padding: 22px 20px 0;
+                    height: 20px;
+                    line-height: 20px;
+                    width: 380px;
+
+                    .goodsNo {
+                        float: left;
+                        font-size: 12px;
+                        color: #666;
+                    }
+
+                    .otherRight {
+                        float: right;
+
+                        .showCollect {
+                            float: right;
+                            .scIcon {
+                                background: url(../img/d-icon.png) no-repeat 0 0;
+                                background-position: -148px -14px;
+                                cursor: pointer;
+                                width: 13px;
+                                height: 12px;
+                                margin: 4px 4px 0 0;
+                                overflow: hidden;
+                                display: inline-block;
+                            }
+
+                            span {
+                                font-size: 12px;
+                                color: #666;
+                                line-height: 20px;
+                                display: inline-block;
+                            }
+                        }
+                        .showshare{
+                            float: right;
+                            margin-right: 15px;
+                            position: relative;
+                            .ssIcon{
+                                background: url(../img/d-icon.png) no-repeat 0 0;
+                                width: 15px;
+                                height: 15px;
+                                background-position: -125px -1px;
+                                margin: 2px 5px 0 0;
+                                display: inline-block;
+                            }
+                            span {
+                                font-size: 12px;
+                                color: #666;
+                                line-height: 20px;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .dIntroInfo {
+                width: 548px;
+                min-height: 533px;
+                padding: 20px 0 10px 10px;
+                border-right: 0;
+                float: left;
+
+                .comName {
+                    padding: 0 10px 5px;
+
+                    h1 {
+                        width: 528px;
+                        font-size: 16px;
+                        min-height: 20px;
+                        line-height: 20px;
+                        color: #333;
+                        font-weight: bold;
+                    }
+                }
+
+                .infoWrap {
+                    background: #fafafa;
+                    margin-top: 5px;
+                    position: relative;
+                    z-index: 2;
+                    padding: 10px;
+
+                    .priceBox {
+                        width: 528px;
+                        line-height: 30px;
+                        height: 55px;
+
+                        .infoTit {
+                            color: #666;
+                            padding-right: 28px;
+                            width: 36px;
+                            font-size: 12px;
+                            float: left;
+                        }
+
+                        .nowPrice {
+                            width: 464px;
+                            float: left;
+                            height: 30px;
+
+                            .pri {
+                                color: #cc3333;
+                                float: left;
+                                height: 30px;
+
+                                em {
+                                    font-size: 14px;
+                                    font-style: normal;
+                                }
+
+                                strong {
+                                    font-size: 26px;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+
+                        .clubDisc {
+                            height: 20px;
+                            line-height: 20px;
+                            margin-top: 5px;
+                            float: left;
+                            margin-left: 64px;
+
+                            .clubImg {
+                                background: url(../img/clubImg.jpg) no-repeat;
+                                width: 37px;
+                                height: 16px;
+                                overflow: hidden;
+                                margin-right: 8px;
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+
+                            span {
+                                font-size: 12px;
+                                color: #333;
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+
+                            a {
+                                color: #3355aa;
+                                margin-left: 10px;
+                                font-size: 12px;
+                                display: inline-block;
+                                vertical-align: middle;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+
+                        .mobileBay {
+                            width: 104px;
+                            height: 26px;
+                            position: absolute;
+                            right: 12px;
+                            top: 12px;
+                            z-index: 1;
+                            cursor: pointer;
+
+                            .mb_head {
+                                width: 104px;
+                                height: 26px;
+                                text-align: center;
+                                overflow: hidden;
+                                vertical-align: middle;
+                                font-size: 0;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                border: 0;
+                                background: #fff;
+
+                                .dIcon {
+                                    background: url(../img/d-icon.png) no-repeat 0 0;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    width: 15px;
+                                    height: 15px;
+                                    background-position: -305px 0;
+                                    overflow: hidden;
+                                    margin: 0;
+                                }
+
+                                span {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    padding: 0 6px;
+                                    font-size: 12px;
+                                    line-height: 26px;
+                                    width: auto;
+                                    margin: 0;
+                                    color: #666;
+                                }
+
+                                .dIcon1 {
+                                    background: url(../img/d-icon.png) no-repeat 0 0;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    width: 10px;
+                                    height: 5px;
+                                    background-position: -122px -46px;
+                                    overflow: hidden;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .salesScoreGold {
+                    border-bottom: 1px dotted #d6d6d6;
+
+                    ul {
+                        padding-left: 70px;
+                        height: 38px;
+                        line-height: 38px;
+
+                        li {
+                            float: left;
+                            width: 30%;
+                            vertical-align: middle;
+                            font-size: 12px;
+                            height: 38px;
+
+                            .dIcon {
+                                background: url(../img/d-icon.png) no-repeat;
+                                background-position: -194px 0;
+                                width: 15px;
+                                height: 13px;
+                                overflow: hidden;
+                                display: inline-block;
+                                font-size: 12px;
+                                vertical-align: middle;
+                            }
+
+                            span {
+                                color: #999;
+                                margin: 0 8px 0 6px;
+                                display: inline-block;
+                                font-size: 12px;
+                                vertical-align: middle;
+                            }
+
+                            em {
+                                display: inline-block;
+                                font-size: 12px;
+                                vertical-align: middle;
+                                color: #999;
+                            }
+
+                            .dIcon1 {
+                                background-position: -214px 0;
+
+                            }
+
+                            .dIcon2 {
+                                background-position: -194px 0;
+                            }
+
+                            .dIcon3 {
+                                background-position: -232px 1px;
+                            }
+
+                            a {
+                                background: url(../img/d-icon.png) no-repeat;
+                                background-position: -251px -18px;
+                                width: 15px;
+                                height: 15px;
+                                overflow: hidden;
+                                margin-left: 5px;
+                                display: inline-block;
+                                font-size: 12px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+
+                .comChooseBay {
+                    padding: 10px;
+
+                    .jt {
+                        margin: 12px 0 5px 0;
+                        height: 19px;
+                        line-height: 19px;
+                        width: 528px;
+
+                        .infoTit {
+                            float: left;
+                            width: 36px;
+                            color: #666;
+                            padding-right: 28px;
+                            font-size: 12px;
+                        }
+
+                        .infoCopons {
+                            float: left;
+                            width: 464px;
+                            height: 19px;
+                            font-size: 12px;
+
+                            .jt_list {
+                                float: left;
+                                height: 19px;
+                                color: #cc3333;
+                                line-height: 19px;
+                                overflow: hidden;
+                                cursor: pointer;
+                                font-size: 12px;
+
+                                span {
+                                    cursor: pointer;
+                                    font-size: 12px;
+                                    color: #666;
+                                    margin-left: 5px;
+                                }
+
+                            }
+                        }
+                    }
+
+                    .yh {
+                        margin: 12px 0 5px 0;
+                        height: 19px;
+                        line-height: 19px;
+                        width: 528px;
+
+                        .infoTit {
+                            color: #666;
+                            float: left;
+                            width: 36px;
+                            padding-right: 28px;
+                            font-size: 12px;
+                        }
+
+                        .infoCon {
+                            float: left;
+                            width: 464px;
+                            height: 19px;
+
+                            .couponsLead {
+                                height: 19px;
+                                float: left;
+                                margin-right: 10px;
+                                cursor: pointer;
+
+                                i {
+                                    background: url(../img/coupon_left.jpg) no-repeat;
+                                    float: left;
+                                    width: 12px;
+                                    height: 19px;
+                                    display: block;
+                                }
+
+                                span {
+                                    float: left;
+                                    height: 17px;
+                                    line-height: 18px;
+                                    color: #cc3333;
+                                    border-top: 1px solid #cc3333;
+                                    border-bottom: 1px solid #cc3333;
+                                    border-right: 1px solid #cc3333;
+                                    background: #fff1f2;
+                                    display: block;
+                                    padding: 0 16px 0 6px;
+                                    overflow: hidden;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+
+                    .cityBox {
+                        width: 528px;
+                        line-height: 30px;
+                        margin: 12px 0 10px 0;
+                        height: 30px;
+
+                        .infoTit {
+                            color: #666;
+                            font-size: 12px;
+                            float: left;
+                            width: 36px;
+                            padding-right: 28px;
+                            height: 30px;
+                        }
+                    }
+
+                    .chooseBox {
+                        width: 528px;
+                        margin-bottom: 8px;
+
+                        .infoTit {
+                            color: #666;
+                            font-size: 12px;
+                            float: left;
+                            width: 36px;
+                            line-height: 32px;
+                            padding-right: 28px;
+                        }
+
+                        .infoChoose {
+                            width: 464px;
+                            float: left;
+                            height: 84px;
+
+                            ul {
+                                .choItem {
+                                    float: left;
+                                    height: 32px;
+                                    padding: 0 10px 10px 0;
+                                    border: none;
+
+                                    a {
+                                        display: inline-block;
+                                        font-size: 0;
+                                        line-height: 0;
+                                        width: auto !important;
+                                        height: 30px;
+                                        border: 1px solid #e5e5e5;
+                                        white-space: nowrap;
+                                        vertical-align: middle;
+                                        position: relative;
+
+                                        &:hover {
+                                            border: 1px solid #cc3333;
+                                        }
+
+                                        span {
+                                            font-size: 12px;
+                                            color: #666;
+                                            display: inline-block;
+                                            cursor: pointer;
+                                            vertical-align: middle;
+                                            margin: 0 5px 0 2px;
+                                            line-height: 32px;
+                                            height: 32px;
+                                        }
+
+                                        .dIcon11 {
+                                            background: url(../img/d-icon.png) no-repeat;
+                                            font-style: normal;
+                                            background-position: -50px -24px;
+                                            width: 11px;
+                                            height: 11px;
+                                            position: absolute;
+                                            right: 0;
+                                            bottom: 0;
+                                            cursor: default;
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    .bayNumBox {
+                        width: 528px;
+                        margin-bottom: 28px;
+                        height: 30px;
+
+                        .infoTit {
+                            color: #666;
+                            float: left;
+                            width: 36px;
+                            padding-right: 28px;
+                            font-size: 12px;
+                            line-height: 30px;
+                        }
+
+                        .infoBuyNum {
+                            float: left;
+                            width: 464px;
+                            height: 30px;
+
+                            .buyNum {
+                                float: left;
+                                width: 66px;
+                                height: 30px;
+                                position: relative;
+
+                                input {
+                                    border: 1px solid #999;
+                                    float: left;
+                                    width: 26px;
+                                    height: 28px;
+                                    line-height: 28px;
+                                    color: #666;
+                                    font-family: "Microsoft YaHei";
+                                    padding: 0 8px;
+                                    vertical-align: middle;
+                                    outline: 0;
+                                }
+
+                                .buyNum_add {
+                                    background: url(../img/d-icon.png) no-repeat 0 0;
+                                    border: 1px solid #999;
+                                    background-position: -70px -25px;
+                                    top: 0;
+                                    overflow: hidden;
+                                    display: block;
+                                    width: 17px;
+                                    height: 11px;
+                                    position: absolute;
+                                    right: 0;
+                                }
+
+                                .buyNum_reduce {
+                                    background: url(../img/d-icon.png) no-repeat 0 0;
+                                    border: 1px solid #999;
+                                    background-position: -70px -41px;
+                                    top: 17px;
+                                    overflow: hidden;
+                                    display: block;
+                                    width: 17px;
+                                    height: 11px;
+                                    position: absolute;
+                                    right: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .bayBtnBox {
+                        width: 528px;
+                        margin-bottom: 18px;
+                        overflow: hidden;
+                        position: relative;
+                        line-height: 30px;
+                        height: 40px;
+
+                        .infoBuy {
+                            width: 550px;
+                            padding-left: 64px;
+                            height: 40px;
+
+                            a {
+                                border: 1px solid #ffcccc;
+                                background: #cc3333;
+                                color: #fff;
+                                display: inline-block;
+                                width: 166px;
+                                height: 38px;
+                                line-height: 38px;
+                                text-align: center;
+                                font-size: 16px;
+                                margin-right: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .introOther{
+                float: left;
+                width: 200px;
+                height: 454px;
+                .introLogo{
+                    text-align: center;
+                    padding: 0 15px;
+                    .introP{
+                        padding: 30px 0 20px;
+                        border-bottom: 1px dotted #d7d7d7;
+                        .jxzy{
+                            display: block;
+                            width: 54px;
+                            height: 18px;
+                            line-height: 18px;
+                            text-align: center;
+                            color: #fff;
+                            background: #cf000e;
+                            margin: 0 auto;
+                            border-radius: 2px;
+                            margin-top: 2px;
+                            font-size: 12px;
+                            font-style: normal;
+                        }
+                    }
+                }
+                .introSaf{
+                    padding-left: 35px;
+                    img{
+                        margin-top: 20px;
+                    }
+                }
+                .kefudetail{
+                    padding-left: 35px;
+                    a{
+                        height: 28px;
+                        line-height: 28px;
+                        background: #fafafa;
+                        text-align: center;
+                        display: block;
+                        border-radius: 2px;
+                        border: 1px solid #e9e9e9;
+                        font-size: 0;
+                        width: 104px;
+                        cursor: pointer;
+                        margin-top: 15px;
+                        color: #666666;
+                        font-family: "宋体";
+                        i{
+                            background: url(../img/cus-1.png) no-repeat;
+                            animation: upDown ease-in 0.8s infinite;
+                            position: relative;
+                            top: 2px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            width: 17px;
+                            height: 22px;
+                        }
+                        span{
+                            font-size: 12px;
+                            color: #666;
+                            margin-left: 5px;
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+}
