@@ -13,17 +13,17 @@
     $zhi = $chares[0]['num'];
     var_dump($zhi);
     if($zhi == 1){
-        // $sql = "delete from car where zid = '$num'"; 
-        $zhi == 1;
+        $sql = "delete from car where zid = '$num'"; 
+        // $zhi == 1;
 
     }else if($key == 'jian'){
         --$zhi; 
         $sql = "update car set num = '$zhi' where zid = '$num'"; 
-        // if($zhi == 0){
+        if($zhi == 0){
             
-        //     $sqlremove = "delete from car where zid = '1'"; 
-        //     $ress = $conn->query($sqlremove);
-        // }
+            $sqlremove = "delete from car where zid = '1'"; 
+            $ress = $conn->query($sqlremove);
+        }
     
     }else if($key == 'jia'){
         ++$zhi;
