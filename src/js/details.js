@@ -61,22 +61,27 @@ $(function(){
                 var uid = getCookie('username');
                 var num = document.getElementById('_nub');
                 $('#goCart').click(function(){
-                    var num = _nub.value;
-                    // console.log(num);
-                    $.ajax({
-                        type: 'post',
-                        url: '../api/detocart.php',
-                        async:true,
-                        data: {
-                            uids: uid,
-                            nums: num,
-                            gids: gid,
-                        },
-                        success: function(data){
-                            location.href= 'car.html';
-                            // console.log(data);
-                        }
-                    })
+
+                    if(!uid){
+                        alert('请先登录!');
+                    }else{
+                        var num = _nub.value;
+                        // console.log(num);
+                        $.ajax({
+                            type: 'post',
+                            url: '../api/detocart.php',
+                            async:true,
+                            data: {
+                                uids: uid,
+                                nums: num,
+                                gids: gid,
+                            },
+                            success: function(data){
+                                location.href= 'car.html';
+                                // console.log(data);
+                            }
+                        })
+                    }
                 })
 
                 var chooseclick = document.getElementsByClassName('chooseclick');
