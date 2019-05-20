@@ -1363,7 +1363,7 @@ main .loadFirst {
     text-align: center;
 }
 
-.adnewbox {
+/* .adnewbox {
     height: 140px;
     width: 100%;
     position: fixed;
@@ -1399,4 +1399,4 @@ main .loadFirst {
     right: -30px;
     top: 8px;
     cursor: pointer;
-}
+} */

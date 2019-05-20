@@ -209,23 +209,23 @@ $(function(){
     })
 
 
-    var adnewbox = document.getElementsByClassName('adnewbox')[0];
-    var closeadnew = document.getElementsByClassName('closeadnew')[0];
-    window.onscroll = function(){
-        var scrollTop = window.scrollY;
-        if(scrollTop >= 800){
-            adnewbox.style.display = 'block';
-            var timer = setTimeout(function(){
-                closeadnew.onclick = function(){
-                    adnewbox.style.display = 'none';
-                    clearTimeout(timer);
-                }
-            },100);
+    // var adnewbox = document.getElementsByClassName('adnewbox')[0];
+    // var closeadnew = document.getElementsByClassName('closeadnew')[0];
+    // window.onscroll = function(){
+    //     var scrollTop = window.scrollY;
+    //     if(scrollTop >= 800){
+    //         adnewbox.style.display = 'block';
+    //         var timer = setTimeout(function(){
+    //             closeadnew.onclick = function(){
+    //                 adnewbox.style.display = 'none';
+    //                 clearTimeout(timer);
+    //             }
+    //         },100);
             
-        }else{
-            adnewbox.style.display = 'none';
-        }
-    }
+    //     }else{
+    //         adnewbox.style.display = 'none';
+    //     }
+    // }
 
 
 
