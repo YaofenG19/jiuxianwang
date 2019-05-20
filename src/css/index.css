@@ -1369,7 +1369,7 @@ main .loadFirst {
     position: fixed;
     right: 0;
     bottom: 0;
-    z-index: 888;
+    z-index: 1000;
     background: url(../img/page_ad.png) center top no-repeat scroll;
     display: none;
 }
